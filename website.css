@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%),url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+
+}
+.logo{
+    color: #f54278;
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    font-family: arial;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.menu{
+    width: 400px;
+    float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 30px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: palevioletred;
+}
+.search_tool{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    margin-top: 25px;
+}
+.srch{
+    border: 2px solid #ff72oo;
+    background: transparent;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    font-family: arial;
+    color: white;
+    margin: 0;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 700;
+    width: 100px;
+    height: 35px;
+    background-color: #f54278;
+}
+.search{
+    color: white;
+    text-decoration: none;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.search:hover{
+    color: yellow;
+}
+.content{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    color: #fff;
+}
+.info{
+    height: 300px;
+    margin-top: 120px;
+    font-size: 25px;
+}
+.info span{
+    color: #f54278;
+}
+.paragraph{
+    font-size: 15px;
+    font-family: arial;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.join{
+    margin: auto;
+
+}
+.join button{
+    background-color: #f54278;
+    width: 125px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+.join button a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+}
+.join button a:hover{
+    color: yellow;
+}
+.login{
+    float: right;
+    margin-top: -350px;
+    height: 400px;
+    background-color: #403e3b;
+    width: 250px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.login h1{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: #f54278 ;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: arial;
+
+}
+.login input{
+    border: transparent;
+}
+
+
